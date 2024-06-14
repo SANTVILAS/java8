@@ -1,0 +1,44 @@
+package Immutable_class_selenium_express;
+
+public class Student {
+
+	final private int id;
+	
+	final private String studentName;
+	
+	
+	
+	
+
+	public Student(int id, String studentName) {
+		super();
+		this.id = id;
+		this.studentName = studentName;
+	}
+
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public int getId() {
+		return id;
+	}
+
+
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	
+
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", studentName=" + studentName + "]";
+	}
+	
+	
+	
+}

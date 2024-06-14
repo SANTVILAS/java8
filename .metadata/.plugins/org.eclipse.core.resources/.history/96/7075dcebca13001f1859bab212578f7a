@@ -1,0 +1,15 @@
+package Optional_Util_Class;
+
+public class OptionalExample {
+
+	
+	public static String getStudentNName() {
+		Student student=StudentDataBase.studentSupplier.get();
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+	}
+}

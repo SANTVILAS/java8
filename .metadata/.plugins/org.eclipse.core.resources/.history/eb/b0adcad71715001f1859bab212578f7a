@@ -1,0 +1,17 @@
+package lock_cocept_and_coding;
+
+public class main {
+
+	public main() {
+	
+		SharedResouces resouce1 = new SharedResouces();
+		
+		Thread th1 = new Thread(()->{
+			
+			resouce1.producer();
+			
+		});
+		
+	}
+	
+}

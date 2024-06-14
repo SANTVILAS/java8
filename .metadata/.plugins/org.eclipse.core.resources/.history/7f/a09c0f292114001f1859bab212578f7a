@@ -1,0 +1,22 @@
+package optional_related_questions;
+
+import java.util.Optional;
+
+import Optional_Util_Class.StudentDataBase;
+
+//orElse
+//
+
+public class OptionalOrElseExample {
+
+
+public static String optionalOrElse() {
+	
+	Optional<Student> studentOptional=Optional.ofNullable(StudentDataBase.studentSupplier.get());
+} 
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}

@@ -1,0 +1,31 @@
+package coding_ninja_2024;
+//by manisha ma'am
+public class Exception_Demo {
+
+	public static  int fact(int n) {
+	
+		
+		
+		int ans=1;
+		for(int i=2;i<=n;i++) {
+			ans = ans * i;
+		}
+		return ans;
+	}
+	
+	public static int divideByZero(int a , int b) {
+		if(b==0) {
+		System.out.println("Dont enter 0 in deno");
+		}
+
+		return a/b;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.println(Exception_Demo.fact(0));
+		System.out.println(divideByZero(5,0));
+	}
+	
+}

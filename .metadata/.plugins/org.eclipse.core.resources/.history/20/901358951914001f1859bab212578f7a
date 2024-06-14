@@ -1,0 +1,10 @@
+package optional_related_questions;
+
+public class OptionalOfEmptyNullableExample {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}

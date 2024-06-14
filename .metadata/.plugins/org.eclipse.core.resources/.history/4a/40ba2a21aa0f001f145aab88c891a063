@@ -1,0 +1,21 @@
+package design_pattern_creational_singleton;
+
+class B {
+
+	static B a = null;
+
+	private B() {
+
+	}
+	
+	public static A getRef() {
+		
+	}
+
+}
+
+public class Test1 {
+	public static void main(String[] args) {
+
+	}
+}

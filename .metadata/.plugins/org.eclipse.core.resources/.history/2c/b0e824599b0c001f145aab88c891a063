@@ -1,0 +1,50 @@
+package Test02_bank_of_america;
+
+import java.text.CollationElementIterator;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.ArrayList;
+import java.util.List;
+
+////To get the non-duplicate user names in uppercase whose age is greater than 30,
+
+class User {
+	private String name;
+	private int age;
+
+	public User(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+}
+
+public class Test01 {
+ 
+	public static void main(String[] args) {
+		
+		List<User> list = new ArrayList<>();
+		list.add(new User("John", 25));
+		list.add(new User("Alice", 35));
+		list.add(new User("Bob", 40));
+		list.add(new User("Alice", 35)); // Duplicate entry
+		
+		Set<String> listAnswer=list.stream().filter(user->user.getAge()<30).map(User::getName).collect(Collectors.toSet());
+		listAnswer.forEach(System.out::print);
+		
+		System.out.println("=================================");
+		List<String> list1=list.stream().filter(user->user.getAge()>30).map(user->user.getName().toUpperCase()).distinct().collect(Collectors.toList());
+	     System.out.println(list1);
+	     
+	     System.out.println("================================");
+	}
+}

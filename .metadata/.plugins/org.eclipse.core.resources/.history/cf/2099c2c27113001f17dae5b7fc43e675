@@ -1,0 +1,11 @@
+package most_interview_question;
+
+
+
+public class Test25_Sum_Of_Square_Of_Even_Numbers {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

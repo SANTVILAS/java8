@@ -1,0 +1,9 @@
+package most_interview_question;
+
+public class Test09_Sum_Of_Even_Number_From1_To_1000 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

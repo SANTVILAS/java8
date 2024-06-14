@@ -1,0 +1,12 @@
+package design_pattern_creational_singleton_break_singleton_via_Clone;
+
+public class App {
+
+	
+	public static void main(String[] args) {
+		
+		LazySingleton instance1=LazySingleton.getInstance();
+		LazySingleton instance2=(LazySingleton) instance1.clone();
+		
+	}
+}

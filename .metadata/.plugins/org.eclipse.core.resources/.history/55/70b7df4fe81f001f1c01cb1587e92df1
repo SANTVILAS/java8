@@ -1,0 +1,27 @@
+package interview_array;
+
+class Student{
+	
+	int id;
+	String firstName;
+	String LastName;
+	String fatherName;
+	Enum("PENDINg","DONE", "NotDone")
+	
+	
+}
+
+
+public class Test05 {
+
+	//pendign fee from last year
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}

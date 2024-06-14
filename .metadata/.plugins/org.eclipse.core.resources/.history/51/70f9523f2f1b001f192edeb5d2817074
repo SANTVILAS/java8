@@ -1,0 +1,17 @@
+package exception_handling_concept_try_catch;
+
+public class Test {
+ public static void main(String[] args) {
+ 
+  int arr[] = new arr[5];
+  
+  System.out.println("Hello Guys");
+  
+   System.out.println(arr[8]);
+   
+   System.out.println("By guys");
+  
+	 
+	 
+	}
+}

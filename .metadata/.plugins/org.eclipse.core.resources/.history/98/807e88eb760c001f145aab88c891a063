@@ -1,0 +1,21 @@
+package most_interview_question;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Test06_Count_Number_Of_Character {
+
+	public static void main(String[] args) {
+		String str = "aaaccadddeef";
+		char[] arr = str.toCharArray();
+
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
+		
+		for(Character ch:arr){
+			
+			
+		}
+		
+	}
+	
+}

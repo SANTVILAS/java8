@@ -1,0 +1,22 @@
+package multipe_inheritance;
+
+class P1{
+	
+	public void m1() {
+		
+	}
+}
+
+class P2{
+	
+	
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}

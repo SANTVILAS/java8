@@ -1,0 +1,12 @@
+package design_pattern_creational_prototype;
+
+public class Student implements Prototype{
+
+	
+	int age;
+	private int rollNumber;
+	String name;
+	
+	
+	
+}

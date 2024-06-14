@@ -1,0 +1,21 @@
+package design_pattern_creational_factory;
+
+class A{
+	
+	private A() {
+		
+	}
+	
+	public A getRef() {
+		
+		A a = new A();
+		return a;
+	}
+	
+	
+	
+}
+
+public class Test {
+
+}

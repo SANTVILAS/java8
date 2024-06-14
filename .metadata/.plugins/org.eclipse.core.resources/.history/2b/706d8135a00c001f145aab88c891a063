@@ -1,0 +1,7 @@
+package most_interview_question;
+
+public class Test11_countEachCharacter {
+public static void main(String[] args) {
+	
+}
+}

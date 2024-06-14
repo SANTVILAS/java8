@@ -1,0 +1,18 @@
+package design_pattern_creational_singleton;
+
+class A {
+
+	static A a = null;
+
+	private A() {
+
+	}
+
+}
+
+public class Test1 {
+public static void main(String[] args) {
+	
+	
+}
+}

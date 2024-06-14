@@ -1,0 +1,11 @@
+package immutable_class_practice_Selenium_Express;
+
+public class Student {
+
+	final private int id;
+	final private String StudentName;
+	final private Address address;
+
+
+
+}

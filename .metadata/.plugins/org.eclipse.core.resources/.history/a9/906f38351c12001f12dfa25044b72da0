@@ -1,0 +1,16 @@
+package Immutable_class_selenium_express;
+
+import Immutable_class_webEncyclob.Student;
+
+public class App {
+
+	
+	public static void main(String[] args) {
+		
+	Student abhilash = new Student();
+	
+	abhilash.setId(1);
+	abhilash.setStudentName("Abhilash");
+	
+	}
+}

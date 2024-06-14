@@ -1,0 +1,16 @@
+package Immutable_class_selenium_express;
+
+
+
+public class App {
+
+	
+	public static void main(String[] args) {
+		Address address= new Address("bbsr","orisha");
+	Student abhilash = new Student(1, "abhilash",);
+	
+	
+	
+	System.out.println(abhilash);
+	}
+}

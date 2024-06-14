@@ -1,0 +1,94 @@
+package interview_array;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class Student{
+	
+	int id;
+	String firstName;
+	String LastName;
+	String fatherName;
+	
+	String status ="PENDING"
+	
+	Enum{
+		
+		"PENDINg","DONE", "NotDone";
+		
+	};
+	
+	
+	
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return LastName;
+	}
+	public void setLastName(String lastName) {
+		LastName = lastName;
+	}
+	public String getFatherName() {
+		return fatherName;
+	}
+	public void setFatherName(String fatherName) {
+		this.fatherName = fatherName;
+	}
+	public Student(int id, String firstName, String lastName, String fatherName) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		LastName = lastName;
+		this.fatherName = fatherName;
+	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", firstName=" + firstName + ", LastName=" + LastName + ", fatherName="
+				+ fatherName + "]";
+	}
+	
+	
+}
+
+
+
+
+
+public class Test05 {
+
+	//pendign fee from last year
+	
+     public static void main(String[] args) {
+		
+    	 List<Student> list = new ArrayList<Student>(); 
+	
+    	 list.add(Student(1,"Sant","Rakesh","PENDING"));
+    	 List<Student> studentList=Arrays.asList(
+    			 
+    			 );
+    	 
+    	 
+    	 
+    	 
+    	 
+	}
+
+	private static Student Student(int i, String string, String string2, String string3) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

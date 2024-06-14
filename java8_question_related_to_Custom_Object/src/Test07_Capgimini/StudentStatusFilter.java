@@ -1,0 +1,50 @@
+package Test07_Capgimini;
+
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+class Student {
+    private int id;
+    private String name;
+    private String status;
+
+    public Student(int id, String name, String status) {
+        this.id = id;
+        this.name = name;
+        this.status = status;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{id=" + id + ", name='" + name + "', status='" + status + "'}";
+    }
+
+    // Getters and setters can be added here if needed
+}
+
+public class StudentStatusFilter {
+    public static void main(String[] args) {
+        // Create a list of Student objects
+        List<Student> students = new ArrayList<>(Arrays.asList(
+            new Student(1, "Alice", "PENDING"),
+            new Student(2, "Bob", "COMPLETED"),
+            new Student(3, "Charlie", "PENDING"),
+            new Student(4, "David", "IN_PROGRESS")
+        ));
+
+        // Use a stream to filter students with status "PENDING"
+        List<Student> pendingStudents = students.stream()
+            .filter(student -> student.getStatus().equals("PENDING"))
+            .collect(Collectors.toList());
+
+        // Output the list of pending students
+        System.out.println("Students with status 'PENDING':");
+        pendingStudents.forEach(System.out::println);
+    }
+}

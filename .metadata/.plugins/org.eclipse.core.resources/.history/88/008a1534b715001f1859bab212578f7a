@@ -1,0 +1,17 @@
+package generics;
+
+public class Pair {
+
+	private int first;
+	private int second;
+	
+	public Pair(int first, int second) {
+		super();
+		this.first = first;
+		this.second = second;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,7 @@
+package design_pattern_creational_prototype;
+
+public interface Prototype {
+
+	ProtoType clone();
+	
+}

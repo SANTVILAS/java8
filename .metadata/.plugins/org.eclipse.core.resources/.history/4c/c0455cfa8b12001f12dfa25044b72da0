@@ -1,0 +1,19 @@
+package immutable_class_practice_Selenium_Express;
+
+public class App {
+
+	
+	public static void main(String[] args) {
+		
+		Address address = new Address("SDL", "MP");
+		
+		
+		Student s = new Student(1, "vilas", address);
+		
+		System.out.println(s);
+		
+		address.setCity("PUNE");
+		address.setState("MH");
+		
+	}
+}

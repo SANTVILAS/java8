@@ -1,0 +1,12 @@
+package Test06_vcti_salary_greater_than_thirdHighest;
+
+import java.util.ArrayList;
+
+public class Employee_Demo {
+
+	
+	public static void main(String[] args) {
+		
+		List<Employee> list = new ArrayList<Employee>();
+	}
+}

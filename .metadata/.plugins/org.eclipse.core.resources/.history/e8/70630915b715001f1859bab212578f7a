@@ -1,0 +1,9 @@
+package generics;
+
+public class PairUse {
+
+	public static void main(String[] args) {
+		Pair p = new Pair(1, 2);
+		
+	}
+}

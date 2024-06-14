@@ -1,0 +1,29 @@
+package Test02_bank_of_america;
+
+////To get the non-duplicate user names in uppercase whose age is greater than 30,
+
+class User {
+	private String name;
+	private int age;
+
+	public User(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+}
+
+public class Test01 {
+ 
+	public static void main(String[] args) {
+		
+		
+	}
+}

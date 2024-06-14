@@ -1,0 +1,10 @@
+package parallel_stream_example_prgamtic;
+
+public class Parallel_stream_Example {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}

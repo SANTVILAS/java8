@@ -1,0 +1,17 @@
+package most_interview_question;
+
+import java.util.Arrays;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+public class Test10_count_chracter_and_sort_basis_of_key {
+
+	public static void main(String[] args) {
+		String s = "ssssddddffffggghhhh";
+		 String[] str=s.split("");
+		 
+		 
+		 Arrays.stream(str).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+		
+	}
+}

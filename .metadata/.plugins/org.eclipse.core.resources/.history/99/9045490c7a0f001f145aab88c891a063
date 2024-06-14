@@ -1,0 +1,16 @@
+package design_pattern_creational;
+
+public interface Prototype{
+	
+	ProtoType clone();
+}
+
+
+class Student{
+	
+	
+}
+
+public class Prototype_Pattern {
+
+}

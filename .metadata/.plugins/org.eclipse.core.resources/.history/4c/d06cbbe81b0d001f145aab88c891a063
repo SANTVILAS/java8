@@ -1,0 +1,20 @@
+package most_interview_question;
+
+import java.util.LinkedHashMap;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class Test21_First_Non_Repeating {
+	public static void main(String[] args) {
+
+		String str="ilovejavatechie";
+		String[] str1=str.split("");
+		
+       Stream<String> stream1 = Stream.of(str1);
+       
+       stream1.collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()));
+       
+		
+	}
+}

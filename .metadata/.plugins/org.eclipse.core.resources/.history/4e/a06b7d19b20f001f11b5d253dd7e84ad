@@ -1,0 +1,17 @@
+package design_pattern_creational_singleton_break_singleton_via_Clone;
+
+public class LazySingleton {
+
+	private LazySingleton() {
+		
+     }
+
+	private static LazySingleton instance;
+	
+	
+	public static LazySingleton getLazySingleton() {
+
+	}
+	
+	
+}

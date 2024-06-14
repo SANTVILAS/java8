@@ -1,0 +1,28 @@
+package Test03_Capgimini;
+
+//To get the list of employees who joined after the year 2015 using Java 8 
+//streams, you can filter the list of employees based on their join dates.
+//Here's how you can do it
+
+class Employee {
+	private String name;
+	private LocalDate joinDate;
+
+	public Employee(String name, LocalDate joinDate) {
+		this.name = name;
+		this.joinDate = joinDate;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public LocalDate getJoinDate() {
+		return joinDate;
+	}
+
+}
+
+public class Test01 {
+
+}

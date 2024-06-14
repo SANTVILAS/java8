@@ -1,0 +1,19 @@
+package design_pattern_creational_singleton;
+
+class A{
+	
+	private static A a = null;
+	
+	private A() {
+		
+	}
+	
+	public A getref() {
+		
+	}
+	
+}
+
+public class Test {
+
+}

@@ -1,0 +1,17 @@
+package parallel_stream_example_prgamtic;
+
+import java.util.stream.IntStream;
+
+public class Parallel_stream_Example {
+
+	public static int sum_sequencial_Stream() {
+		
+		return IntStream.rangeClosed(1, 100000).sum();
+	}
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}

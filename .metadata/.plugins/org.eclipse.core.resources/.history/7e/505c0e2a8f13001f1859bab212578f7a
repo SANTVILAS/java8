@@ -1,0 +1,25 @@
+package java8_static_and_default_method_durgasir;
+
+interface I{
+	
+	default void m1() {
+		
+		System.out.println("Default method");
+	}
+}
+
+public class Test implements I {
+	@Override
+	public void m1() {
+		System.out.println("overriden vbersion of default method");
+	}
+	public static void main(String[] args) {
+		
+		
+		Test t = new Test();
+		t.m1();
+		
+	}
+	
+	
+}

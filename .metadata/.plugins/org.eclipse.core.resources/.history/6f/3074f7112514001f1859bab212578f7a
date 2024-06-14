@@ -1,0 +1,45 @@
+package optional_related_questions;
+
+import java.util.Optional;
+
+import Optional_Util_Class.Student;
+import Optional_Util_Class.StudentDataBase;
+
+//orElse
+//
+
+public class OptionalOrElseExample {
+
+
+public static String optionalOrElse() {
+	
+	//Optional<Student> studentOptional=Optional.ofNullable(StudentDataBase.studentSupplier.get());
+	Optional<Student> studentOptional=Optional.ofNullable(null);
+	String name=studentOptional.map(Student::getName).orElse("Default");
+	return name;
+} 
+
+public static String optionalOrElseGet() {
+	
+	//Optional<Student> studentOptional=Optional.ofNullable(StudentDataBase.studentSupplier.get());
+	Optional<Student> studentOptional=Optional.ofNullable(null);
+	String name=studentOptional.map(Student::getName).orElseGet(()->"Defaualt");
+	return name;
+}
+
+public static String optionalOrElseThrow() {
+	
+	Optional<Student> studentOptional=Optional.ofNullable(StudentDataBase.studentSupplier.get());
+	//Optional<Student> studentOptional=Optional.ofNullable(null);
+	String name=studentOptional.map(Student::getName).orElseThrow(()->);
+	return name;
+}
+
+
+	public static void main(String[] args) {
+		
+		System.out.println(optionalOrElse());
+		System.out.println(optionalOrElseGet());
+	}
+	
+}

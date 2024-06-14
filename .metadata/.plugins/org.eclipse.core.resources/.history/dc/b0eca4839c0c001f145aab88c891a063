@@ -1,0 +1,47 @@
+package Test03_Capgimini;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+//To get the list of employees who joined after the year 2015 using Java 8 
+//streams, you can filter the list of employees based on their join dates.
+//Here's how you can do it
+
+class Employee {
+	private String name;
+	private LocalDate joinDate;
+
+	public Employee(String name, LocalDate joinDate) {
+		this.name = name;
+		this.joinDate = joinDate;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public LocalDate getJoinDate() {
+		return joinDate;
+	}
+
+}
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		
+		List<Employee> employees = new ArrayList<>();
+		employees.add(new Employee("John", LocalDate.of(2014, 6, 15)));
+		employees.add(new Employee("Alice", LocalDate.of(2016, 9, 22)));
+		employees.add(new Employee("Bob", LocalDate.of(2015, 12, 10)));
+		employees.add(new Employee("Emily", LocalDate.of(2017, 3, 5)));
+		
+		List<Employee> listEmpafter2015=employees.stream().filter(emp->emp.getJoinDate().getYear()>2015).collect(Collectors.toList());
+		
+		listEmpafter2015.forEach(emp->System.out.println(emp));
+		
+	}
+	
+}

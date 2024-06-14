@@ -1,0 +1,12 @@
+package most_interview_question;
+
+public class Tets15_Sorting_Student_Demo {
+	public static void main(String[] args) {
+
+		List<Student> studentList=Arrays.asList(
+				new Student(10, "sant"),
+				new Student(30, "vilas"),
+				new Student(20, "keshari")
+				);
+	}
+}

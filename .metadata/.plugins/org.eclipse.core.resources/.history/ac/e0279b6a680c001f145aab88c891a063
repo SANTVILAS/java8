@@ -1,0 +1,45 @@
+package most_interview_question;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Test01_Removed_Duplicate_By_Thenxt_Programmer {
+
+	public static void main(String[] args) {
+
+		// we need to remove duplicate
+
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(10);
+		list.add(20);
+		list.add(10);
+		list.add(10);
+		list.add(30);
+		list.add(40);
+
+		// step -2
+
+		List<Integer> unique_List = new ArrayList<Integer>();
+		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+
+		for (Integer num : list) {
+			if (!map.containsKey(num)) {
+				map.put(num, 1);
+				unique_List.add(num);
+			}
+			
+		}
+		
+		for(int i=0;i<list.size();i++) {
+			int num=list.get(i);
+			if(!map.containsKey(num)) {
+				map.put(num, 1);
+				unique_List.add(num);
+			}
+		}
+		
+    System.out.println(unique_List);
+	}
+}

@@ -1,0 +1,9 @@
+package most_interview_question;
+
+public class Test02_Removed_Duplicate_By_Java8 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

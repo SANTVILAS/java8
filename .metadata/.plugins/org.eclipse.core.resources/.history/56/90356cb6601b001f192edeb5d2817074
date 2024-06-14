@@ -1,0 +1,15 @@
+package coding_ninja_2024;
+//by manisha ma'am
+public class Exception_Demo {
+
+	public int fact(int n) {
+	
+		int ans=1;
+		for(int i=0;i<=n;i++) {
+			ans = ans * i;
+		}
+		return ans;
+	}
+	
+	
+}

@@ -1,0 +1,5 @@
+package Test06_vcti_salary_greater_than_thirdHighest;
+
+public class Employee {
+
+}

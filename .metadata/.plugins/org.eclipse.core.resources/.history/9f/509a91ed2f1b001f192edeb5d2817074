@@ -1,0 +1,23 @@
+package exception_handling_concept_try_catch;
+
+public class Test {
+	public static void main(String[] args) {
+
+		int arr[] = new int[5];
+
+		System.out.println("Hello Guys");
+
+		try {
+			int result = 5/0;
+			System.out.println(arr[8]);
+			
+			
+			
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("Try to access out of bound element");
+		}
+
+		System.out.println("By guys");
+
+	}
+}

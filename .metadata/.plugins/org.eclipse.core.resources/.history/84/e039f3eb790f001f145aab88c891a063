@@ -1,0 +1,10 @@
+package design_pattern_creational;
+
+class Student{
+	
+	
+}
+
+public class Prototype_Pattern {
+
+}

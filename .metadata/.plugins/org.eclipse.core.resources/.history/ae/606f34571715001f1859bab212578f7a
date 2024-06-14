@@ -1,0 +1,20 @@
+package lock_cocept_and_coding;
+
+public class SharedResouces {
+
+	boolean isAvailable = false;
+
+	public synchronized void producer() {
+
+		try {
+			
+			System.out.println("Lock aquired by "+Thread.currentThread());
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

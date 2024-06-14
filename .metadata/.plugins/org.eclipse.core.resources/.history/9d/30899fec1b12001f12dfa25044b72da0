@@ -1,0 +1,9 @@
+package Immutable_class_selenium_express;
+
+public class Sudent {
+
+	private int id;
+	
+	private String studentName;
+	
+}

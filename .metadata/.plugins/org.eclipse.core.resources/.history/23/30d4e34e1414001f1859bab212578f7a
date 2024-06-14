@@ -1,0 +1,24 @@
+package Optional_Util_Class;
+
+public class OptionalExample {
+
+	
+	public static String getStudentName() {
+	//	Student student=StudentDataBase.studentSupplier.get();
+		Student student = null;
+		if(student!=null) {
+			return student.getName();
+		}
+		return null;
+	}
+	
+	public static void main(String[] args) {
+		
+		String name=getStudentName();
+		if(name!=null) {
+			System.out.println(name.length());
+		}else {
+			System.out.println("Name not found");
+		}
+	}
+}

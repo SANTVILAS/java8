@@ -1,0 +1,27 @@
+package most_interview_question;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Test05_Count_Number_Of_Words {
+
+	public static void main(String[] args) {
+	    
+	     String str="this is is done by saket saket";
+
+	     String[] splitedWords=str.split(" ");
+	     
+	     Map<String, Integer> map =new HashMap<String, Integer>();
+	     
+	     for(String elem : splitedWords) {
+	    	 if(map.get(elem)) {
+	    		 map.put(elem, 1);
+	    	 }else {
+	    		 map
+	    	 }
+	    	 
+	     }
+		
+	}
+	
+}
